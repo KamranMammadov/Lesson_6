@@ -1,0 +1,88 @@
+/* a{
+    text-decoration: none;
+    background-color: white;
+    color: green;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid green;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+a:visited{
+    color: yellow;
+} */
+
+/* div{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+}
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+
+div:hover p {
+    display:block;
+} */
+.main{
+    background-color: aqua;
+    width: 30%;
+    height: 500px;
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+}
+.firstDiv{
+    background-color: red;
+    top: 0px;
+    left: 20px;
+    z-index: 2;
+}
+.firstDiv , .secondDiv{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.secondDiv{
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.container{
+    width: 80%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.firstBox{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+}
+.secondBox{
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+.thirdBox{
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+}
